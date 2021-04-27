@@ -1,9 +1,9 @@
 import React from 'react';
-import CreateLink from './CreateLink';
-import Header from './Header';
-import LinkList from './LinkList';
-import Login from "./Login";
-import Search from "./Search";
+import CreateLink from '../CreateLink/CreateLink';
+import Header from '../Header/Header';
+import LinkList from '../LinkList/LinkList';
+import Login from "../Login/Login";
+import Search from "../Search/Search";
 import { Redirect, Switch, Route, } from 'react-router-dom';
 
 const App = () => (

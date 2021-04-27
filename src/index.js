@@ -1,18 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
-import {
-    ApolloClient,
-    ApolloProvider,
-    createHttpLink,
-    InMemoryCache,
-    split
-} from '@apollo/client';
-import { setContext } from '@apollo/client/link/context';
-import { WebSocketLink } from '@apollo/client/link/ws';
-import { getMainDefinition } from '@apollo/client/utilities';
-import App from './components/App';
-import { AUTH_TOKEN } from './constants';
+import {BrowserRouter} from 'react-router-dom';
+import {ApolloClient, ApolloProvider, createHttpLink, InMemoryCache, split} from '@apollo/client';
+import {setContext} from '@apollo/client/link/context';
+import {WebSocketLink} from '@apollo/client/link/ws';
+import {getMainDefinition} from '@apollo/client/utilities';
+import App from './components/App/App';
+import {AUTH_TOKEN} from './constants';
 import * as serviceWorker from './serviceWorker';
 import './styles/index.css';
 

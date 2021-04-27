@@ -1,7 +1,7 @@
 import React from 'react';
-import { useHistory } from 'react-router';
-import { Link } from 'react-router-dom';
-import { AUTH_TOKEN } from '../constants';
+import {useHistory} from 'react-router';
+import {Link} from 'react-router-dom';
+import {AUTH_TOKEN} from '../../constants';
 
 const Header = () => {
     const history = useHistory();
